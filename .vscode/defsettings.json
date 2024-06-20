@@ -1,10 +1,8 @@
 {
-    "deckip"    : "0.0.0.0",
-    "deckport"  : "22",
-    "deckpass"  : "ssap",
-    "deckkey"   : "-i ${env:HOME}/.ssh/id_rsa",
-    "deckdir"   : "/home/deck",
-    "python.analysis.extraPaths": [
-        "./py_modules"
-    ]
+  "deckip": "192.168.1.111",
+  "deckport": "22",
+  "deckpass": "200927",
+  "deckkey": "-i ${env:HOME}/.ssh/id_ed25519",
+  "deckdir": "/home/deck",
+  "python.analysis.extraPaths": ["./py_modules"]
 }
